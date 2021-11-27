@@ -1,4 +1,10 @@
-|* {
+@font-face {
+    font-family: SF Pro Display;
+    src: url(./font/SFPro/SFProDisplay-Regular.ttf);
+    src: url(./font/SFPro/SFProDisplay-Medium.ttf);
+}
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,6 +19,12 @@ body {
     max-width: 1200px;
     padding: 0 24px;
     margin: 0 auto;
+}
+
+.logo {
+    width: 138px;
+    height: 43px;
+    color: #22322F;
 }
 
 .header {
@@ -30,8 +42,33 @@ body {
     display: none;
 }
 
+.button {
+    font-family: SF Pro Display, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+}
+
 .hero {
     padding-bottom: 100px;
+}
+
+.hero h1 {
+    font-family: SF Pro Display, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    color: #22322F;
+}
+
+.hero p {
+    font-family: SF Pro Display, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
 }
 
 .illustration {
@@ -49,6 +86,10 @@ body {
 }
 
 .header button {
+    font-family: SF Pro Display, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
     border: 2px solid #22322F;
     border-radius: 8px;
     display: flex;
@@ -99,6 +140,10 @@ body {
     font-size: 16px;
 }
 
+span {
+    color: #71A89E;
+}
+
 @media only screen and (min-width: 1200px) {
 
     .header button {
@@ -115,7 +160,7 @@ body {
 
     .header a {
         text-decoration: none;
-        font-family: SF Pro Display;
+        font-family: SF Pro Display, sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 20px;
@@ -188,6 +233,4 @@ body {
     .mobile-illustration {
         display: none;
     }
-
-
 }
