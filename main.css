@@ -172,10 +172,6 @@ span {
         margin-left: 40px;
     }
 
-    /* .header li:not(:last-child) {
-        margin-right: 40px;
-    } */
-
     .navigation {
         font-family: SF Pro Display, sans-serif;
         font-style: normal;
@@ -183,6 +179,10 @@ span {
         font-size: 20px;
         letter-spacing: -0.02em;
         color: #303031
+    }
+
+    .hero {
+        padding-bottom: 0;
     }
 
     .hero .container {
@@ -232,5 +232,10 @@ span {
 
     .mobile-illustration {
         display: none;
+    }
+
+    .hero-illustration {
+        display: flex;
+        justify-content: center;
     }
 }
